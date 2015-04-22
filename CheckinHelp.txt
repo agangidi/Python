@@ -28,5 +28,5 @@ git push
 git push gerrit HEAD:refs/for/master
 
 
-// Git log
-for all commits
+// Info on all commits
+Git log
