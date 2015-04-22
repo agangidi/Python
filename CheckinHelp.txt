@@ -26,3 +26,7 @@ git push
 
 // To push the changes to any other branch
 git push gerrit HEAD:refs/for/master
+
+
+// Git log
+for all commits
