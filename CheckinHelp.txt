@@ -1,0 +1,28 @@
+
+//Checking out code or cloning a project
+git clone "project"
+git pull "project path"
+
+//Checking in Code
+
+//get most up to data files
+git pull origin master
+//Copy the code
+ 
+//Stage the files copied  
+git add .
+// To undo staged files ONLY
+git reset HEAD
+// To see the staged files ready for commit 
+git status
+
+//To give a commit description and update change list:
+git commit
+//if you want to undo your commit but keep the files at the staging area
+git reset --soft HEAD~1
+ 
+// To push the changes to master branch 
+git push 
+
+// To push the changes to any other branch
+git push gerrit HEAD:refs/for/master
